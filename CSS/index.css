@@ -1,0 +1,13 @@
+body {
+    background: url("../img/flag-russia.jpg")
+}
+img {
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.bigBlock{
+    height: 2500px;
+}

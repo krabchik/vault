@@ -1,0 +1,120 @@
+.header{ 
+    padding: 10px 0; 
+    position: fixed; 
+    left: 0; 
+    top: 0; 
+    right: 0; 
+    z-index: 997; 
+    background: rgba(138, 144, 255, 0.9); 
+}
+.menu-nav_item{ 
+    list-style: none; 
+}
+.menu-nav_link{ 
+    text-decoration: none; 
+    display: inline-block; 
+    color: #fff; 
+    font-weight: 400; 
+    font-size: 12px; 
+    text-transform: uppercase; 
+    outline: none;
+}
+.serction_banner {
+    background: url(../img/banner-bg.jpg);
+    background-size: cover;
+}
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.banner {
+    margin-top: 120px;
+    padding: 120px 0;
+}
+.banner-text_header {
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+}
+.banner-text_body {
+    text-align: center;
+    padding: 10px 0;
+}
+.banner-text_body a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+}
+.banner-text_body span{
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 0 5 px;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+.section_main {
+    padding: 120px 0;
+}
+.section_header {
+    text-align: center;
+}
+h1 {
+    font-feature-settings: 36px;
+    color: #222222;
+}
+.product-card-wrap {
+    padding: 15px;
+    width: 25%;
+}
+.product-card {
+    min-width: 255px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 10px 30px 0px rgba(212, 150, 255, 0.2)
+}
+.product-card_image-wrap {
+    padding: 40px;
+    background-color: 1px solid #eee;
+}
+.product-card_details {
+    padding: 20px;
+    background-color: #f9f9ff;
+}
+h4 {
+    font-size: 18px;
+}
+.product-card_button {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
+    background: #fff;
+    color: #222 !important;
+    font-weight: 600px;
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    position: relative;
+    text-transform: uppercase;
+}
+.footer {
+    background: url(../img/footer-bg.jpg);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+.footer-block_last {
+    padding-top: 120px;
+    color: white;
+}
+.copyright {
+    padding: 0 15px;
+}
